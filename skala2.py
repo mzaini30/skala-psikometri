@@ -38,7 +38,7 @@ while y < len(fav):
 	y += 1
 
 for x in list_isi:
-	file_skala1.write(x+"\n")
+	file_skala1.write(x+"\t")
 
 garis()
 print "Silahkan buka file 'hasil skala 2.txt'"
